@@ -1,0 +1,7 @@
+en:
+  date:
+    formats:
+      kalendar:
+        caption: "%B %Y"
+        day_of_week: "%a"
+        day: "%-d"

@@ -1,0 +1,9 @@
+<%= calendar(year: year, month: month, events: events) do |day| %>
+  <% if day.has_events? %>
+    <ul class="events">
+      <% day.events.each do |event| %>
+        <li><%= event.index %></li>
+      <% end %>
+    </ul>
+  <% end %>
+<% end %>
